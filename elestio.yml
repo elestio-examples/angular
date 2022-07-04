@@ -6,6 +6,8 @@ config:
     buildDir: 'dist/angular'
     runCommand: 'npm run start'
     installCommand: 'npm install'
+    icon: "src/favicon.ico"
+    screenshot: "src/images/angular.png"
 exposedPorts:
   - protocol: "HTTP"
     hostPort: "4200"
@@ -24,3 +26,6 @@ ports:
 environments:
     -  key: 'ENV'
        value: 'production'
+webUI:
+  - url: "https://[CI_CD_DOMAIN]"
+    label: "Website"              
