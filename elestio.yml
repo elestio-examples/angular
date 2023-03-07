@@ -11,7 +11,7 @@ config:
 exposedPorts:
   - protocol: "HTTP"
     hostPort: "4200"
-    containerPort: "4200"
+    containerPort: "3000"
     interface: "172.17.0.1"
 ports:
   - protocol: "HTTPS"
