@@ -1,9 +1,9 @@
 config:
-    runTime: 'NodeJs'
+    runTime: 'staticSPA'
     version: ''
     framework: 'Angular'
     buildCommand: 'npm run build'
-    buildDir: 'dist/angular'
+    buildDir: 'dist'
     runCommand: 'npm run start'
     installCommand: 'npm install'
     icon: "src/favicon.ico"
